@@ -36,6 +36,11 @@ public class ActivitiesPageTest extends TestBase{
         step("Проверить, что заголовок содержит правильное навзвание", () -> {
             activitiesPage.checkHeader("MAGNIT TECH x Infostart Tech Event");
         });
+        step("Закрыть вкладку и вернуться обратно", () -> {
+            closeWindow();
+            switchTo().window(0);
+        });
+
 
     }
 
@@ -97,7 +102,11 @@ public class ActivitiesPageTest extends TestBase{
         step("Проверить, что стоит метка с выбранным значением", () -> {
             activitiesPage.checkLabelTypeActivity("Mobile dev");
         });
-        
+        step("Закрыть вкладку и вернуться обратно", () -> {
+            closeWindow();
+            switchTo().window(0);
+        });
+
 
     }
 }
