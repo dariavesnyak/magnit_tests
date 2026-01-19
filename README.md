@@ -20,7 +20,8 @@ ____
 * <a href="#telegram">Уведомление в Telegram при помощи бота</a>
 
 * <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
-____
+
+_____
 
 <a id="tools"></a>
 ## <a name="Технологии и инструменты">**Технологии и инструменты:**</a>
@@ -38,7 +39,8 @@ ____
 <img width="6%" title="Telegram" src="media/logo/Telegram.svg">
 <img width="5%" title="Jira" src="media/logo/Jira.svg">
 </p>
-____
+
+_____
 
 <a id="cases"></a>
 ## <a name="Примеры автоматизированных тест-кейсов">**Примеры автоматизированных тест-кейсов:**</a>
