@@ -61,6 +61,10 @@ ____
 <a id="jenkins"></a>
 ## <a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/student_vesnyak_qa_guru_38_magnit_tests)</a>
 
+<p align="center">  
+<img title="Jenkins" src="media/picture/jenkins.png" width="850">  
+</p>    
+
 ### **Параметры сборки в Jenkins:**
 - task (выбор команды для запуска тестов, можно запускать отдельно по страницами, можно сразу все)
 - browser (выбор браузера, по умолчанию chrome)
@@ -90,37 +94,55 @@ ____
 <a id="allure"></a>
 ## <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/student_vesnyak_qa_guru_38_magnit_tests/6/allure)</a>
 
-Основная страница отчёте
+### Основная страница отчёте
+<p align="center">  
+<img title="Main page Allure" src="media/picture/main_allure.png" width="850">  
+</p>  
 
-Тест-кейсы
+### Тест-кейсы
+<p align="center">  
+<img title="Suites cases" src="media/picture/suites_allure.png" width="850">  
+</p>  
 
-Графики
+### Графики
+
+<p align="center">  
+<img title="Jenkins" src="media/picture/graphs_part1.png" width="850">  
+</p>  
+<p align="center">  
+<img title="Jenkins" src="media/picture/graphs_part2.png" width="850">  
+</p>  
 
 ____
 
 <a id="allure-testops"></a>
-## Интеграция с <a target="_blank" href="___">Allure TestOps</a>
+## Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/5092/dashboards">Allure TestOps</a>
 
-Allure TestOps Dashboard
+### Allure TestOps Dashboard
+<p align="center">  
+<img title="TestOps Dashboard" src="media/picture/testops_dashboard.png" width="850">  
+</p>  
 
-Ручные тест-кейсы
-
-Авто тест-кейсы
-
-____
-
-<a id="jira"></a>
-## Интеграция с <a target="_blank" href="___">Jira</a>
-
-
+### Тест-кейсы
+<p align="center">  
+<img title="TestOps Suites" src="media/picture/testops.png" width="850">  
+</p>  
 
 ____
 
 <a id="telegram"></a>
 ##  Уведомление в Telegram при помощи бота
 
+<p align="center">  
+<img title="Jenkins" src="media/picture/telegram.png" width="850">  
+</p>  
+
 ____
 
 <a id="video"></a>
 ## Примеры видео выполнения тестов на Selenoid
+
+<p align="center">  
+<img title="Jenkins" src="media/picture/test_cases_video_1.gif" width="850">  
+</p>  
 
