@@ -26,12 +26,15 @@ public class ActivitiesPage {
     public void openPage() {
         open(baseUrl);
     }
-    public void goToActivityPage(){
+
+    public void goToActivityPage() {
         goToActivity.click();
     }
+
     public void clickByTitleActivityCard(String value) {
         sectionActivityCard.$(byText(value)).click();
     }
+
     public void checkHeader(String value) {
         mainHeaderActivity.shouldHave(text(value));
     }
@@ -39,34 +42,30 @@ public class ActivitiesPage {
     public void clickByFilterCity() {
         filterByCity.click();
     }
+
     public void chooseValueInFilterCity(String value) {
         valueFromFilterCity.$(byText(value)).click();
     }
+
     public void checkLabelCity(String value) {
         labelCity.shouldHave(text(value));
     }
+
     public void clickByFilterType() {
         filterByTypeActivity.click();
     }
+
     public void chooseValueInFilterType(String value) {
         valueFromFilterTypeActivity.$(byText(value)).click();
     }
+
     public void clickFirstActivityCard() {
         activityFirstCard.click();
     }
+
     public void checkLabelTypeActivity(String value) {
         labelTypeActivity.shouldHave(text(value));
     }
-
-
-
-
-
-
-
-
-
-
 
 
 }

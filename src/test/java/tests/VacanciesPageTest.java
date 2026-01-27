@@ -10,7 +10,7 @@ import page.VacanciesPage;
 import static io.qameta.allure.Allure.step;
 
 
-public class VacanciesPageTest extends TestBase{
+public class VacanciesPageTest extends TestBase {
 
     AcceptCookie acceptCookie = new AcceptCookie();
     VacanciesPage vacanciesPage = new VacanciesPage();
@@ -38,9 +38,6 @@ public class VacanciesPageTest extends TestBase{
         step("Проверить, что результаты поиска содержат введенное значение", () -> {
             vacanciesPage.checkingResults(value);
         });
-
-
-
 
 
     }

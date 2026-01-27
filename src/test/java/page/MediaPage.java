@@ -15,13 +15,13 @@ public class MediaPage {
             goToMedia = $(".header__content").$(byText("Медиа"));
 
 
-     ElementsCollection
-             mediaTabs = $$(".media-tab"),
-             sectionMediaCards = $$(".media-card");
+    ElementsCollection
+            mediaTabs = $$(".media-tab"),
+            sectionMediaCards = $$(".media-card");
 
-     public void openPage() {
-         open(baseUrl);
-     }
+    public void openPage() {
+        open(baseUrl);
+    }
 
     public void goToMedia() {
         goToMedia.click();

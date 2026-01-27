@@ -1,4 +1,7 @@
 # Демо-проект по автоматизации тестирования для компании [Magnit Tech](https://magnit.tech/)
+<p align="center">  
+<img title="Suites cases" src="media/picture/main_page.png" width="850">  
+</p>  
 ____
 
 ## *Содержание*

@@ -13,16 +13,14 @@ import java.util.Map;
 public class TestBase {
 
     @BeforeAll
-    static void beforeAll() {
+    static void setupSelenideConfig() {
         Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl = "https://magnit.tech";
-        Configuration.remote= System.getProperty("remote");
-        Configuration.browser= System.getProperty("browser", "chrome");
-        Configuration.browserVersion= System.getProperty("browserVersion", "128.0");
-        Configuration.browserSize= System.getProperty("browserSize", "1920x1080");
+        Configuration.remote = System.getProperty("remote");
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
 
-
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
@@ -34,6 +32,8 @@ public class TestBase {
 
     @AfterEach
     void addAttachments() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();

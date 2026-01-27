@@ -35,10 +35,6 @@ public class MediaPageTest extends TestBase {
         });
 
 
-
-
-
-
     }
 
 

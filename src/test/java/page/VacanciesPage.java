@@ -18,17 +18,19 @@ public class VacanciesPage {
     ElementsCollection
             sectionVacancyCards = $$(".vacancies__card");
 
-    public void openPage(){
+    public void openPage() {
         open(baseUrl);
     }
 
     public void goToVacancy() {
         goToVacancy.click();
     }
+
     public void setValueInInputSearch(String value) {
         inputSearch.setValue(value);
     }
-    public void checkingResults(String value){
+
+    public void checkingResults(String value) {
         sectionVacancyCards.shouldHave(CollectionCondition.allMatch(
                 "Все карточки содержат '{value}'",
                 element -> element.getText().contains(value)
